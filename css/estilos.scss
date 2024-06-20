@@ -1,0 +1,37 @@
+$primary: #222;
+$secondary: #0dcaf0;
+$font1: "Roboto Condensed";
+
+.navbar{
+    background: #222;
+    .navbar-brand img{
+        height: 60px;
+    }
+    .nav-link{
+        font: 18px  $font1;
+        color: #fff;
+        &:hover {
+            color: $secondary;
+        }
+    }
+    .navbar-nav .nav-link.show{
+        color:#0dcaf0;
+    }
+    .dropdown-menu{
+        background-color: #222;
+        border-radius: 0;
+        border-top: 5px solid $secondary;
+        .dropdown-item{
+            font: 20px $font1 ;
+            color: #0dcaf0;
+        }
+    }
+}
+
+.d-flex{
+    padding-right: 20px;
+  
+   
+    
+   
+}

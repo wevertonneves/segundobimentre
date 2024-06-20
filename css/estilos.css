@@ -1,0 +1,23 @@
+.navbar {
+  background: #222; }
+  .navbar .navbar-brand img {
+    height: 60px; }
+  .navbar .nav-link {
+    font: 18px "Roboto Condensed";
+    color: #fff; }
+    .navbar .nav-link:hover {
+      color: #0dcaf0; }
+  .navbar .navbar-nav .nav-link.show {
+    color: #0dcaf0; }
+  .navbar .dropdown-menu {
+    background-color: #222;
+    border-radius: 0;
+    border-top: 5px solid #0dcaf0; }
+    .navbar .dropdown-menu .dropdown-item {
+      font: 20px "Roboto Condensed";
+      color: #0dcaf0; }
+
+.d-flex {
+  padding-right: 20px; }
+
+/*# sourceMappingURL=estilos.css.map */
