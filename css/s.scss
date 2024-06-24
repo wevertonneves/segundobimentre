@@ -1,0 +1,104 @@
+
+$primary: #222;
+$secondary: #f1f1f1;
+$cortres : #f7e012;
+$font1: "Anton";
+$font2: "Archivo Black";
+
+
+
+
+
+.navbar {
+    background: $primary;
+   
+    z-index: 1;
+    .navbar-brand img {
+        height: 60px; }
+    .navbar-toggler{
+            background-color: $cortres !important;
+        }
+       
+    .nav-link {
+    font: 22px $font1;
+        color: #f1f1f1;
+        text-transform: uppercase;
+        &:hover {
+            color: $cortres;
+        }
+      
+    }
+    
+    
+    .dropdown-menu {
+        background: $primary;
+        border-radius: 0;
+        border-top: 5px solid $cortres;
+        .dropdown-item {
+            font: 20px $font1;
+            text-transform: uppercase;
+            color: $cortres;
+        }
+    }
+}
+
+
+
+.d-flex  {
+    padding-right: 50px;
+    margin-top: -20px;
+    
+   
+}
+
+
+
+.footer {
+    color: #FFF;
+    padding: 20px;
+    background: #222;
+    margin-top: 150px;
+    .buttonawe{
+        color: #FFF;
+        padding: 30px;
+        text-decoration: none;
+        font-size: 25px;
+      
+    }
+    
+
+}
+
+
+.btn {
+    font: 20px $font1;
+    border-radius: 0;
+}
+
+h1 {
+    font: 36px $font2;
+    color: $cortres;
+    margin: 30px;
+}
+
+.card {
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #CCC;
+}
+
+.cj{font-size:30px;
+font: $font2 !important;
+text-transform: uppercase;
+
+}
+
+
+    
+.bt{
+    border-radius: 10px;
+}
+
+
+
+
+

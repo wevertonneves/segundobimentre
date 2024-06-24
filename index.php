@@ -15,11 +15,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/s.css">
 
     <link rel="shortcut icon" href="images/icone.png">
 </head>
@@ -35,7 +36,8 @@
 
       
     ?>
-    <nav class="navbar navbar-expand-lg">
+    
+    <nav class="navbar navbar-expand-lg w-100">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
                 <img src="images/logo.png" alt="Stem">
@@ -49,7 +51,7 @@
                         <a class="nav-link" aria-current="page" href="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="quem-somos">Quem Somos</a>
+                        <a class="nav-link" href="equipe">Quem Somos</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -65,16 +67,17 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="d-flex">
                 
-      <li class="nav-item dropdown">
+    
+          <div class="d-flex up ">
+          <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Baixar Games
-           <i class="fas fa-download"></i>
+        Jogar agora
+           <i class="fa-solid fa-gamepad"></i>
           </a>
           <ul class="dropdown-menu">
           
-            <li><a class="dropdown-item" href="game1.zip">flapburnes</a></li>
+            <li><a class="dropdown-item" href="http://techforge2.free.nf/FlapBurnes/" target="_blank" >flapburnes</a></li>
             <li><a class="dropdown-item" href="game2.zip">teste2</a></li>
             <li><a class="dropdown-item" href="game3.zip">teste3</a></li>
            
@@ -86,7 +89,7 @@
             </div>
         </div>
     </nav>
-
+                            </header>
     <main>
         <?php
             
@@ -111,12 +114,13 @@
         ?>
     </main>
 
+
     <footer class="footer" data-aos="fade">
         <p class="text-center">
-            <strong>TechAcademic2: Todos os Direito Reservados.</strong>
+            <strong>TechAcademic2: Todos os Direito Reservados</strong>
         </p>
         <p class="text-center">
-            Entre em contato atravez das
+            Entre em contato atravez das nossas redes sociais
         </p>
         <p class="text-center logo">
         <a href="https://www.facebook.com/weverton.thiago.165" title="facebook" class="buttonawe" >

@@ -18,7 +18,7 @@
     </div>
     
     
-    <h2 class="text-center">Gameplay</h2>
+    <h2 class="text-center cj">Gameplay</h2>
     <div class="row">
         <?php
             $dadosFotos = file_get_contents("http://localhost/stem/api/fotos.php");
@@ -33,7 +33,7 @@
                     <a href="<?=$foto->foto?>" title="Foto <?=$i?>"
                     data-fslightbox>
                         <img src="<?=$foto->foto?>"
-                        alt="Foto <?=$i?>" class="w-100">
+                        alt="Foto <?=$i?>" class="w-100 card">
                     </a>
                 </div>
                 <?php

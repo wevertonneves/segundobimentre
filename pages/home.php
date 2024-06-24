@@ -32,7 +32,7 @@ $dadosBanner = json_decode($dadosApi);
 </div>
 
 <div class="container">
-    <h1 class="text-center">
+    <h1 class="text-center cj">
         Conheça nossos Jogos
     </h1>
     <?php
@@ -50,7 +50,7 @@ $dadosBanner = json_decode($dadosApi);
                         <div class="card-text text-center">
                             <p><strong><?=$dados->nome?></strong></p>
                             <p>
-                                <a href="game/<?=$dados->id?>" title="Detalhes do Jogo" class="btn btn-danger">
+                                <a href="game/<?=$dados->id?>" title="Detalhes do Jogo" class="btn btn-warning bt">
                                     <i class="fas fa-search"></i>
                                     Detalhes
                                 </a>
