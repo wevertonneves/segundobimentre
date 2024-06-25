@@ -8,7 +8,7 @@
     <meta name="description" content="Games,">
     <meta name="keywords" content="games, jogos, lançamentos">
 
-    <base href="http://localhost/stem/">
+    <base href="http://techforge2.free.nf/">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
   
@@ -16,6 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -28,7 +29,7 @@
 <body>
     <?php
         
-        $url = "http://localhost/stem/api/games.php";  /* local da  grid com os jogos*/
+        $url = "http://techforge2.free.nf/api/games.php";  /* local da  grid com os jogos*/
         
         $dadosApi = file_get_contents($url);
         
@@ -78,8 +79,8 @@
           <ul class="dropdown-menu">
           
             <li><a class="dropdown-item" href="http://techforge2.free.nf/FlapBurnes/" target="_blank" >flapburnes</a></li>
-            <li><a class="dropdown-item" href="game2.zip">teste2</a></li>
-            <li><a class="dropdown-item" href="game3.zip">teste3</a></li>
+            <li><a class="dropdown-item" href="http://techforge2.free.nf/Fujadascobras/"target="_blank">Fuja das cobras</a></li>
+            <li><a class="dropdown-item" href="http://techforge2.free.nf/splasck/"target="_blank">splasck</a></li>
            
           </ul>
         </li>
@@ -117,10 +118,10 @@
 
     <footer class="footer" data-aos="fade">
         <p class="text-center">
-            <strong>TechAcademic2: Todos os Direito Reservados</strong>
+            <strong>TechAcademic2: Todos os Direito Reservados.</strong>
         </p>
         <p class="text-center">
-            Entre em contato atravez das nossas redes sociais
+            Entre em contato através das nossas redes sociais.
         </p>
         <p class="text-center logo">
         <a href="https://www.facebook.com/weverton.thiago.165" title="facebook" class="buttonawe" >

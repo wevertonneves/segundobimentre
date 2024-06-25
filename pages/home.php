@@ -1,5 +1,5 @@
 <?php
-$url = "http://localhost/stem/api/banners.php"; /*imagend do carrosel para alterar abrir api/banners*/
+$url = "http://techforge2.free.nf/api/banners.php"; /*imagend do carrosel para alterar abrir api/banners*/
 
 $dadosApi = file_get_contents($url);
 
@@ -30,10 +30,10 @@ $dadosBanner = json_decode($dadosApi);
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-
+<br><br><br><br><br><br>
 <div class="container">
-    <h1 class="text-center cj">
-        Conheça nossos Jogos
+    <h1 class="text-center cj cor">
+        Lançamentos da Semana
     </h1>
     <?php
       

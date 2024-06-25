@@ -56,4 +56,19 @@ h1 {
 .bt {
   border-radius: 10px; }
 
+.cor {
+  color: #222 !important;
+  text-transform: uppercase;
+  font: "Anton" !important; }
+
+.f {
+  font: 22px "Playwrite NG Modern"; }
+
+@media (max-width: 450px) {
+  .active {
+    display: none !important; }
+
+  .sumir {
+    display: none !important; } }
+
 /*# sourceMappingURL=s.css.map */

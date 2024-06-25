@@ -4,6 +4,7 @@ $secondary: #f1f1f1;
 $cortres : #f7e012;
 $font1: "Anton";
 $font2: "Archivo Black";
+$font3: "Playwrite NG Modern";
 
 
 
@@ -98,7 +99,18 @@ text-transform: uppercase;
     border-radius: 10px;
 }
 
+.cor{color:#222 !important;
+text-transform: uppercase ;
+font: $font1 !important;}
 
 
 
+.f { font: 22px $font3;}
 
+
+
+@media (max-width: 450px) {
+
+.active{display: none !important;}
+
+.sumir{display: none !important;}}

@@ -1,7 +1,7 @@
 <?php
     $dados = $dadosJogos->$codigo; 
 ?>
-<div class="banner">
+<div class="banner sumir">
     <img src="<?=$dados->banner?>" alt="<?=$dados->banner?>" class="w-100">
 </div>
 <div class="container">
@@ -18,10 +18,10 @@
     </div>
     
     
-    <h2 class="text-center cj">Gameplay</h2>
+    <h2 class="text-center cj cor">Gameplay</h2>
     <div class="row">
         <?php
-            $dadosFotos = file_get_contents("http://localhost/stem/api/fotos.php");
+            $dadosFotos = file_get_contents("http://techforge2.free.nf/api/fotos.php");
             $dadosFotos = json_decode($dadosFotos);
             //só as fotos do jogo
             $dados = $dadosFotos->$codigo;

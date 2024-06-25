@@ -2,7 +2,7 @@
     header('Access-Control-Allow-Origin: *');
     header("Content-type: application/json; charset=utf-8");
 
-    $path = "http://localhost/stem/images/";
+    $path = "http://techforge2.free.nf/images/";
 
 
     /*essas são as imagens que ficam depois que seleciona ver detalalhes*/
